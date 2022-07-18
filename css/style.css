@@ -9643,6 +9643,10 @@ textarea.form-control-lg {
   margin: 0px 30px 0 30px;
 }
 
+.card {
+  margin: 10px 30px 0 0;
+}
+
 .prodboton {
   display: flex;
   place-content: center;
