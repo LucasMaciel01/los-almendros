@@ -1,0 +1,20 @@
+$theme-colors: (
+  "primary":    #3b3b3b,
+  "dark":       #3b3b3b,
+  "light":      white,
+) ;
+
+$link-color:                              #3b3b3b;
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "header";
+@import "carousel";
+@import "pdest";
+@import "btnp";
+@import "selecp";
+@import "footer";
