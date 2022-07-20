@@ -9658,6 +9658,12 @@ textarea.form-control-lg {
   place-content: center space-evenly;
 }
 
+@media only screen and (max-width: 500px) {
+  .grid-foot {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .pie {
   background-color: rgb(38, 38, 38);
   bottom: 0;
