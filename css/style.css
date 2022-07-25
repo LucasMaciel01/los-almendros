@@ -9598,7 +9598,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.header {
+#nav1 {
   display: flex;
   place-content: center space-evenly;
   margin-top: 10px;
