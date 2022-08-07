@@ -9659,10 +9659,13 @@ textarea.form-control-lg {
   place-content: center space-evenly;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1000px) {
   .grid-foot {
-    display: flex;
+    display: grid;
     flex-direction: column;
+  }
+  .contacto {
+    margin: 0 50px 0 20px;
   }
 }
 .pie {
@@ -9680,13 +9683,14 @@ textarea.form-control-lg {
 }
 
 .grid-foot {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 50px;
+  display: flex;
+  place-content: center space-evenly;
+  margin: 0px 30px 0px 30px;
 }
 
 .contacto {
   display: grid;
+  margin: 0 50px 0 50px;
 }
 
 .instagram {
@@ -9695,10 +9699,12 @@ textarea.form-control-lg {
 
 .nosotros {
   display: grid;
+  margin: 0 50px 0 50px;
 }
 
 .shop {
   display: grid;
+  margin: 0 50px 0 50px;
 }
 
 .s1 {
@@ -9708,6 +9714,7 @@ textarea.form-control-lg {
 
 .info {
   display: grid;
+  margin: 0 200px 0 50px;
 }
 
 .row {
