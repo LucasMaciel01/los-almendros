@@ -9598,11 +9598,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#nav1 {
-  display: flex;
-  place-content: center space-evenly;
+.sa {
   margin-top: 10px;
-  margin-bottom: 10px;
+}
+
+.ss {
+  width: 95px;
+  height: 45px;
 }
 
 .foto {
@@ -9613,12 +9615,6 @@ textarea.form-control-lg {
 .items {
   margin-top: 10px;
   color: rgb(38, 38, 38);
-}
-
-.header div i {
-  font-size: 25px;
-  align-self: center;
-  margin: 15px 18px;
 }
 
 .fa-cart-shopping {
