@@ -9630,11 +9630,17 @@ textarea.form-control-lg {
 .fa-magnifying-glass {
     color: rgb(38, 38, 38);
 } */
-.carousel {
-  height: 100%;
-  margin-bottom: 30px;
+.or {
+  display: grid;
+  width: 1920px;
+  height: 1080px;
 }
 
+@media only screen and (max-width: 700px) {
+  .card {
+    font-size: xx-small;
+  }
+}
 .prod {
   display: flex;
   place-content: center;
@@ -9729,12 +9735,8 @@ textarea.form-control-lg {
   margin: 20px;
 }
 
-.btn {
-  margin: 20px 0 0 0;
-}
-
 .ter {
   margin: 20px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css7style.css.map */
